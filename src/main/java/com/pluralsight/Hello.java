@@ -2,6 +2,10 @@ package com.pluralsight;
 
 public class Hello {
     public static void main(String[] args) {
+        hello();
+    }
+
+    public static void hello() {
         String welcome = "Little man says\"Howdy\"!!!";
         System.out.println(welcome);
 
@@ -10,5 +14,12 @@ public class Hello {
         String welcome3= """
                 Hey how is it going""";
         System.out.println(welcome3);
+    }
+
+    public static void runComparingStringsExample(){
+        String s1 = "abc";
+        String s2 = "ABC";
+        if (s1.equalsIgnoreCase(s2));
+
     }
 }
