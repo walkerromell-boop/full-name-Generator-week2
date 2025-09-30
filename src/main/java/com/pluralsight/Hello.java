@@ -3,6 +3,7 @@ package com.pluralsight;
 public class Hello {
     public static void main(String[] args) {
         hello();
+        runComparingStringsExample();
     }
 
     public static void hello() {
@@ -19,7 +20,25 @@ public class Hello {
     public static void runComparingStringsExample(){
         String s1 = "abc";
         String s2 = "ABC";
-        if (s1.equalsIgnoreCase(s2));
+        if (s1.equalsIgnoreCase(s2));{
+            System.out.println(false);
+        }
+
+
+        String fullname = "Dana Wyatt";
+        int lenght= fullname.length();
+        System.out.println(lenght);
+
+        String trackingCode = "USA-12981-Y-22";
+        char hasShipped = trackingCode.charAt(10);
+        System.out.println(hasShipped);
+
+
 
     }
+
+
+
+
+
 }
